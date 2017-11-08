@@ -1,0 +1,16 @@
+#ifndef __CALCULA_H__
+#define __CALCULA_H__
+#include <iostream>
+#include <cmath>
+#include "area.h"
+#include "perimetro.h"
+#include "volume.h"
+float triangulo_calcula();
+float retangulo_calcula();
+float quadrado_calcula();
+float circulo_calcula();
+float piramide_calcula();
+float cubo_calcula();
+float paralele_calcula();
+float esfera_calcula();
+#endif //__CALCULA_H__
